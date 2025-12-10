@@ -17,7 +17,6 @@ const AboutSection = () => {
                 {/* overlay opsional */}
                 <div className="absolute inset-0 bg-black/20" />
               </div>
-            </div>
             {/* Decorative frame */}
             <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-accent/30 rounded-2xl -z-10" />
           </div>
