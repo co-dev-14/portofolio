@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-2 group">
             <Star className="w-5 h-5 text-accent group-hover:animate-twinkle" fill="currentColor" />
-            <span className="font-display text-xl font-semibold text-foreground">FSA</span>
+            <span className="font-display text-xl font-semibold text-foreground">Farid Syifa Arrahim</span>
           </a>
 
           {/* Desktop Navigation */}
