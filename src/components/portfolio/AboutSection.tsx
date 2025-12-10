@@ -9,15 +9,13 @@ const AboutSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image placeholder */}
-          <div className="relative">
-            <div className="aspect-[4/5] bg-gradient-to-br from-muted to-card rounded-2xl overflow-hidden relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-accent/20 flex items-center justify-center">
-                    <span className="font-display text-4xl font-bold text-accent">FSA</span>
-                  </div>
-                  <p className="text-muted-foreground text-sm">Photo placeholder</p>
-                </div>
+            <div className="relative">
+              <div
+                className="aspect-[4/5] rounded-2xl overflow-hidden bg-cover bg-center"
+                style={{ backgroundImage: "url('foto.jpg')" }}
+              >
+                {/* overlay opsional */}
+                <div className="absolute inset-0 bg-black/20" />
               </div>
             </div>
             {/* Decorative frame */}
