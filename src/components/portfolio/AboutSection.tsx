@@ -8,15 +8,18 @@ const AboutSection = () => {
 
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Image placeholder */}
-            <div className="relative">
-              <div
-                className="aspect-[4/5] rounded-2xl overflow-hidden bg-cover bg-center"
-                style={{ backgroundImage: "url('foto.jpg')" }}
-              >
-                {/* overlay opsional */}
-                <div className="absolute inset-0 bg-black/20" />
-              </div>
+          {/* Image */}
+          <div className="relative">
+            <div className="aspect-[4/5] rounded-2xl overflow-hidden">
+              <img
+                src="/foto.jpg"
+                alt="Farid Syifa Arrahim"
+                className="w-full h-full object-cover"
+              />
+              {/* overlay opsional */}
+              <div className="absolute inset-0 bg-black/20" />
+            </div>
+          
             {/* Decorative frame */}
             <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-accent/30 rounded-2xl -z-10" />
           </div>
