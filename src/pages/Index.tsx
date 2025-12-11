@@ -9,6 +9,7 @@ import HobbiesSection from "@/components/portfolio/HobbiesSection";
 import ContactSection from "@/components/portfolio/ContactSection";
 import Footer from "@/components/portfolio/Footer";
 import ScrollReveal from "@/components/portfolio/ScrollReveal";
+import ProjectsSection from "@/components/portfolio/ProjectsSection";
 
 const Index = () => {
   return (
@@ -26,6 +27,10 @@ const Index = () => {
       
       <ScrollReveal delay={100}>
         <ExperienceSection />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={100}>
+        <ProjectsSection />
       </ScrollReveal>
       
       <ScrollReveal delay={100}>
