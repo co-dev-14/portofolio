@@ -8,19 +8,42 @@ import LanguagesSection from "@/components/portfolio/LanguagesSection";
 import HobbiesSection from "@/components/portfolio/HobbiesSection";
 import ContactSection from "@/components/portfolio/ContactSection";
 import Footer from "@/components/portfolio/Footer";
+import ScrollReveal from "@/components/portfolio/ScrollReveal";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background overflow-x-hidden">
       <Navbar />
       <HeroSection />
-      <AboutSection />
-      <EducationSection />
-      <ExperienceSection />
-      <SkillsSection />
-      <LanguagesSection />
-      <HobbiesSection />
-      <ContactSection />
+      
+      <ScrollReveal>
+        <AboutSection />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={100}>
+        <EducationSection />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={100}>
+        <ExperienceSection />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={100}>
+        <SkillsSection />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={100}>
+        <LanguagesSection />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={100}>
+        <HobbiesSection />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={100}>
+        <ContactSection />
+      </ScrollReveal>
+      
       <Footer />
     </main>
   );
