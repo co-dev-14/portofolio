@@ -2,8 +2,13 @@ import { Star, GraduationCap } from "lucide-react";
 
 const educationData = [
   {
+    school: "Universitas Terbuka",
+    level: "S1 | Sistem Informasi",
+    icon: "🎓",
+  },
+  {
     school: "SMK Telekomunikasi Darul Ulum",
-    level: "Sekolah Menengah Kejuruan",
+    level: "Sekolah Menengah Kejuruan | Rekayasa Perangkat Lunak",
     icon: "🎓",
   },
   {
